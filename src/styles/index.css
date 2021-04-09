@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/*http://colorschemedesigner.com/csd-3.5/#*/
+:root {
+  --background: #ffffff;
+  --input: #ffffff;
+  --backgroundNavbar: white;
+  --backgroundNavbarButton: #F6F8FA;
+  --borderColorNavbar: rgb(21, 27, 31);
+  --textColor: black;
+  --linkColor: #0266D6;
+  --extra:#586069;
+  --titleColor: black;
+  --optionslist: black;
+  --borderLine: #E1E4E8;
+}
+body.dark-theme {
+  --input: #171A23;
+  --background: #0D1117;
+  --backgroundNavbarButton: #0D1117;
+  --backgroundNavbar: #24292E;
+    --borderColorNavbar: #979A9C;
+    --textColor: white;
+    --linkColor: #58A6FF;
+    --extra:#8B949E;
+    --titleColor: #C7CED6;
+    --optionslist: #959BA3;
+    --borderLine: #30363D;
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  --input: #171A23;
+  --background: #0D1117;
+  --backgroundNavbarButton: #0D1117;
+  --backgroundNavbar: #24292E;
+    --borderColorNavbar: #979A9C;
+    --textColor: white;
+    --linkColor: #58A6FF;
+    --extra:#8B949E;
+    --titleColor: #C7CED6;
+    --optionslist: #959BA3;
+    --borderLine: #30363D;
+
+  }
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--borderColorNavbar);
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: var(--borderColorNavbar);
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: var(--borderColorNavbar);
+}

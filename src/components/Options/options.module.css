@@ -1,0 +1,81 @@
+.container {
+  margin: auto;
+  max-width: 900px;
+}
+.row {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+.contentOptions {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid  var(--borderLine);
+  border-radius: 5px;
+
+}
+.contentOptionsMovil {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid  var(--borderLine);
+  border-radius: 5px;
+
+}
+.contentResults {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.boxMovil {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.boxAlign {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.line {
+  background: var(--borderLine);
+  width: auto;
+  height: 1px;
+}
+.lineRepo {
+  background: #F9826C;
+  width: 140px;
+  height: 3px;
+  margin-top: 10px;
+  margin-left: 9px;
+}
+.lineRepoNone {
+  background: white;
+  width: 140px;
+  height: 3px;
+  margin-top: 10px;
+  margin-left: 9px;
+}
+.lineHo {
+  width: 2.4px;
+  height: 32px;
+  border-radius: 5px;
+  background: #F9826C;
+}
+.categoria {
+  padding-left: 10px;
+  color: var(--optionslist)
+}
+.categoriaCount {
+  font-size: 12px;
+  margin: 5px;
+  color: white;
+  padding: 4px;
+  background: #6B737D;
+  border-radius: 20px;
+}

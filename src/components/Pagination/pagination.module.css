@@ -1,0 +1,33 @@
+.container {
+  margin: auto;
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.itemSelect {
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  background: var(--linkColor);
+  color:white;
+}
+.item {
+  color: var(--textColor);
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.Previous {
+  color: var(--titleColor);
+  cursor: pointer;
+}
+.next {
+  cursor: pointer;
+  color: var(--linkColor);
+}

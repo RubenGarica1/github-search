@@ -1,0 +1,46 @@
+.line {
+  background: #E1E4E8;
+  width: auto;
+  height: 1px;
+}
+.image {
+  width: 22px;
+  height: 22px;
+  border-radius: 45px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.line {
+  background: #E1E4E8;
+  width: auto;
+  height: 1px;
+  margin-top: 10px;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  padding-left: 10px;
+  color: var(--linkColor);
+}
+.login {
+  padding-left: 10px;
+  color: var(--extra);
+}
+.bio {
+  font-size: 14px;
+  padding-bottom: 10px;
+  color:var(--textColor);
+}
+.info {
+  color: var(--extra);;
+  font-size: 10px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}

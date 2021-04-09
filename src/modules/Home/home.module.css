@@ -1,0 +1,33 @@
+.container {
+  margin: auto;
+  max-width: 900px;
+}
+.row {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+.contentResults {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.image {
+  border-radius: 120px;
+}
+.title {
+  margin: 5px 0px 0px 0px;
+  font-size: 28px;
+  color: var(--titleColor)
+}
+.subTitle {
+  margin: 0px;
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--extra);
+}
+.link {
+  color:var(--linkColor);
+  font-weight: 650;
+  user-select: none;
+  text-decoration: none;
+}
